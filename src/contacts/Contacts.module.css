@@ -9,10 +9,11 @@
 
 .form {
     width: 50%;
-    height: 50%;
+    height: 25%;
     background-color: #b6c1c1;
     border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
