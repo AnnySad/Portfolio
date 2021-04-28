@@ -12,12 +12,12 @@ function Projects() {
                              description = {"Watch"}
 
                       title={"Project: "}
-                             description = {"Description: "}
+                             description = {"Description:   ..."}
                 />
                     <Project titleP={"Page"}
                              description = {"Watch"}
                              title={"Project: "}
-                             description = {"Description: "}
+                             description = {"Description:     .... "}
 
                     />
                 </div>
