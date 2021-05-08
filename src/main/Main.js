@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Main.module.css';
 import styleContainer from '../common/styles/Container.module.css'
+import {TypedReactDemo} from "./text";
 
 function Main() {
     return (
@@ -9,7 +10,19 @@ function Main() {
             <div className={style.text}>
                 <span>Hi There</span>
                 <h1>I am Anny Sadovskaya</h1>
-                <p>Frontend Developer.</p>
+                <p>
+                    <TypedReactDemo
+                        strings={[
+                            'Frontend Developer.',
+                            'React Developer.',
+                            'летим...',
+                            'Frontend Developer.',
+                            'React Developer.',
+                            'летим...'
+                        ]}
+                    />
+                </p>
+
             </div>
             <div className={style.photo}>photo</div>
             </div>
